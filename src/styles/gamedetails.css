@@ -1,0 +1,51 @@
+.details-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px;
+}
+
+.details-header {
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+}
+
+.details-img {
+  width: 400px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+}
+
+.details-info h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.details-info p {
+  font-size: 18px;
+}
+
+.details-meta {
+  margin-top: 15px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.description {
+  margin-top: 40px;
+  font-size: 18px;
+  line-height: 1.8;
+  max-width: 900px;
+}
+
+.actions {
+  margin-top: 30px;
+}
+
+.actions select,
+.actions button {
+  padding: 10px 15px;
+  margin-right: 10px;
+  border-radius: 6px;
+  border: none;
+}
