@@ -1,16 +1,43 @@
-# React + Vite
+# KimuKoList
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Une application web pour explorer des jeux vidéo et gérer ton catalogue personnel. Recherche des jeux, consulte leurs détails, et garde une trace de ce que tu joues, as terminé ou abandonné.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Fonctionnalités technique du site
 
-## React Compiler
+- **Explorer** : Recherche des jeux en temps réel grâce à la barre de recherche
+- **Détails d'un jeu** : Clique sur un jeu pour voir sa description, sa note, ses genres, son développeur et son éditeur
+- **Catalogue personnel** : Ajoute des jeux à ta liste avec un statut (En cours / Terminé / Abandonné)
+- **Filtres** : Filtre ton catalogue par statut depuis la page "Mon catalogue"
+- **Persistance** : Ton catalogue est sauvegardé dans le `localStorage` — il reste après fermeture du navigateur (très pratique)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prérequis
+
+- Une clé API RAWG (gratuite sur [rawg.io/apidocs](https://rawg.io/apidocs)) limite de 20k requête + création de compte obligatoire
+
+### Étapes pour lancer le projet sur sa machine
+
+```bash
+# Cloner le repo
+git clone https://github.com/Hurtrex/KimukoListPublic
+cd kimukolist
+
+# Installer les dépendances
+npm install
+
+# Créer le fichier d'environnement
+echo "VITE_API_KEY=ta_cle_api_rawg" > .env
+
+# Lancer en développement
+npm run dev
+```
+
+---
+
+### L'application web final en ligne
+https://kimukolist.onrender.com/
