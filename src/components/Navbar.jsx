@@ -6,7 +6,7 @@ import "../styles/navbar.css"
 function Navbar() {
   return (
     <nav className="navbar">
-      <div className="nav-logo">🎮 KimuKoList</div>
+      <div className="nav-logo"> KimuKoList</div>
 
       <div className="nav-links">
         <Link to="/">Explorer</Link>

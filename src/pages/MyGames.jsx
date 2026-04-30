@@ -13,7 +13,7 @@ function MyGames() {
 
   return (
     <div className="container">
-  <h1>📚 Mon catalogue</h1>
+  <h1> Mon catalogue</h1>
 
   <div className="filters">
     <button onClick={() => setFilter("all")}>Tous</button>

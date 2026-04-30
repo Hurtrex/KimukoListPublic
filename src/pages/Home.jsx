@@ -30,7 +30,7 @@ function Home() {
 
   return (
     <div className="container">
-  <h1 className="home-title">🎮 Explorer</h1>
+  <h1 className="home-title"> Explorer</h1>
 
   <input
     className="search-bar"

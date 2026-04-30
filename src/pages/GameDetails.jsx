@@ -44,7 +44,7 @@ function GameDetails() {
       <div className="details-info">
         <h1>{game.name}</h1>
 
-        <p>⭐ {game.rating}</p>
+        <p> {game.rating}</p>
 
         <div className="details-meta">
           <p><strong>Date :</strong> {game.released}</p>
