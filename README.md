@@ -8,9 +8,9 @@ Une application web pour explorer des jeux vidéo et gérer ton catalogue person
 
 - **Explorer** : Recherche des jeux en temps réel grâce à la barre de recherche
 - **Détails d'un jeu** : Clique sur un jeu pour voir sa description, sa note, ses genres, son développeur et son éditeur
-- **Catalogue personnel** : Ajoute des jeux à ta liste avec un statut (En cours / Terminé / Abandonné)
+- **Catalogue personnel** : Ajoute des jeux à une liste avec un statut (En cours / Terminé / Abandonné)
 - **Filtres** : Filtre ton catalogue par statut depuis la page "Mon catalogue"
-- **Persistance** : catalogue est sauvegardé dans le `localStorage` il reste après fermeture du navigateur utilisation du "createContext" (très pratique)
+- **Persistance** : catalogue est sauvegardé dans le `localStorage` il reste après fermeture du navigateur utilisation du "useContext et createContext" (très pratique)
 
 ---
 
